@@ -4,6 +4,7 @@ import styles from "../../styles/Home.module.scss";
 //SG
 export const getStaticProps = async (context) => {
   const id = context.params.id;
+  console.log(context);
   const data = await client.get({ endpoint: "blog", contentId: id });
 
   return {
