@@ -17,11 +17,14 @@ export default function Home({ blog }) {
   return (
     <div className={styles.container}>
       {blog.map((blog) => (
-        <li key={blog.id}>
+        <article className={styles.article} key={blog.id}>
+          <time>{blog.createdAt}</time>
           <Link href={`blog/${blog.id}`}>
-            <a href="">{blog.title}</a>
+            <a className={styles.anker} href="">
+              {blog.title}
+            </a>
           </Link>
-        </li>
+        </article>
       ))}
     </div>
   );
