@@ -1,0 +1,21 @@
+.body {
+  background-color: #55c500;
+  width: 250px;
+  min-height: 100vh;
+}
+.navTitle {
+  color: rgb(251, 247, 247);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 30px;
+}
+
+.navTitle li {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.logo {
+}
