@@ -16,10 +16,19 @@
 
 .article {
   width: 100%;
-  height: 200px;
+  height: auto;
   padding: 50px;
   background-color: #fff;
   margin-bottom: 30px;
+}
+
+.article > div > a {
+  width: 50%;
+}
+
+.article > div > img {
+  width: 35%;
+  display: block;
 }
 
 .container {
@@ -29,6 +38,42 @@
 
 .publishedAt {
   margin-bottom: 40px;
+}
+.thumbnailImage {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  box-shadow: 4px 5px 12px black;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.thumbnailImage:hover {
+  transform: translate(4px, 5px);
+  box-shadow: none;
+}
+
+#micro {
+  margin-top: 20px;
+}
+
+.blogImg img {
+  width: 700px;
+  display: block;
+  margin: 20px auto;
+}
+
+.headBottom {
+  text-align: left;
+  margin-top: 50px;
+}
+.grid {
+  display: grid;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  gap: 40px;
+  margin: 50px auto;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .post {

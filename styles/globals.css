@@ -7,6 +7,18 @@ body {
   background-color: #f5f6f6;
 }
 
+ul,
+li,
+p,
+a,
+span,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;

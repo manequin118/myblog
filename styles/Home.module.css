@@ -1,0 +1,114 @@
+.main {
+  width: 960px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.anker {
+  display: block;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.article {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.article > div > a {
+  width: 50%;
+}
+
+.article > div > img {
+  width: 35%;
+  display: block;
+}
+
+.container {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.publishedAt {
+  margin-bottom: 40px;
+}
+
+.thumbnailImage {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 4px 5px 12px black;
+          box-shadow: 4px 5px 12px black;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.thumbnailImage:hover {
+  -webkit-transform: translate(4px, 5px);
+          transform: translate(4px, 5px);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#micro {
+  margin-top: 20px;
+}
+
+.blogImg img {
+  width: 700px;
+  display: block;
+  margin: 20px auto;
+}
+
+.headBottom {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1200px;
+  gap: 40px;
+  margin: 50px auto;
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.post > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 40px 0 20px;
+  background-color: #eee;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.post > h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 40px 0 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.post > p {
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+}
+
+.post > ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+/*# sourceMappingURL=Home.module.css.map */
